@@ -1,0 +1,26 @@
+/* .map {
+  height: 50vh;
+  width: 50%;
+} */
+
+.doNotNameThisMap {
+  height: 50vh;
+  width: 50%;
+}
+
+.marker {
+  font-size: auto;
+  text-align: center;
+  padding-top: 10px;
+  background-color: red;
+  height: 3vh;
+  width: 3vw;
+  border-radius: 10% 60% 60% 60%;
+}
+
+.Navbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
