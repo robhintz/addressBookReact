@@ -9,7 +9,7 @@ let baseURL = "";
 if (process.env.NODE_ENV === "development") {
   baseURL = "http://localhost:3003";
 } else {
-  baseURL = "https://addressbookbackend.herokuapp.com/";
+  baseURL = "https://addressbookbackend.herokuapp.com";
 }
 // baseURL = 'https://fathomless-sierra-68956.herokuapp.com'
 console.log("current base URL:", baseURL);

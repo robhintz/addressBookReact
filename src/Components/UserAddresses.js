@@ -5,7 +5,7 @@ let baseURL = "";
 if (process.env.NODE_ENV === "development") {
   baseURL = "http://localhost:3003";
 } else {
-  baseURL = "https://addressbookbackend.herokuapp.com/";
+  baseURL = "https://addressbookbackend.herokuapp.com";
 }
 
 export default class UserAddresses extends Component {
